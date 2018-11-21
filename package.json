@@ -1,0 +1,36 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pengliheng <pengliheng111@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "b": "webpack ./build/webpack.config.js",
+    "docker": "docker build -t chat . && docker run -p 9001:80 chat"
+  },
+  "bin": "server.js",
+  "pkg": {
+    "assets": [
+      ".next/**/*"
+    ],
+    "script": [
+      ".next/dist/**/*.js"
+    ]
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "antd": "^3.10.8",
+    "koa": "^2.6.2",
+    "md5": "^2.2.1",
+    "next": "^7.0.2",
+    "node-sass": "^4.10.0",
+    "parse-torrent": "^6.1.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "webpack": "^4.25.1"
+  }
+}

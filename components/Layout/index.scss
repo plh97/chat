@@ -1,0 +1,24 @@
+.layout {
+  background-image: url('https://static.pipk.top/api/public/images/8697911386286312.jpeg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  .header{
+    padding: 0;
+    z-index: 0;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e7e8e8;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to top, #c9c9c9, #ebebeb); 
+  }
+  .layout {
+    .sider {
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.3);
+      // filter: blur(3px);
+    }
+  }
+}

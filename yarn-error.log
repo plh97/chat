@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/Cellar/node/11.0.0/bin/node /usr/local/Cellar/yarn/1.10.1/libexec/bin/yarn.js add webpack-cli
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  11.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at TLSSocket.onConnectEnd (_tls_wrap.js:1149:19)
+      at Object.onceWrapper (events.js:273:13)
+      at TLSSocket.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process.internalTickCallback (internal/process/next_tick.js:72:19)
+
+npm manifest: 
+  {
+    "name": "chat",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "pengliheng <pengliheng111@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
