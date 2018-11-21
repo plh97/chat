@@ -1,5 +1,5 @@
 node_modules/
 stats.json
 yarn.lock
-yanr-error.log
+yarn-error.log
 .cache/
